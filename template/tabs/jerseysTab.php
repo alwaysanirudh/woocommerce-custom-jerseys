@@ -63,9 +63,7 @@ extract($array_data_products);
       </div>
       <div>
         <h1>{{indice}}</h1>
-
         <input name="name" type="text" placeholder="Name" value="{{name}}" />
-        <input name="quantity" type="hidden"  value="1" />
         <input name="number" type="text" placeholder="Number" value="{{number}}" />
 
         <select name="size">
@@ -74,6 +72,7 @@ extract($array_data_products);
             <option value="<?php echo $size->slug; ?>"><?php echo $size->name; ?></option>
           <?php endforeach; ?>
         </select>
+        <input name="quantity" type="hidden"  value="{{quantity}}" />
         <a href="javascript:saveEditarJersey('jersey{{indice}}');" class="saveEditarJersey" >Save</a>
         <a href="javascript:ocultarNewJersey('jersey{{indice}}');" class="cancelEditarJersey">Cancel</a>
       </div>

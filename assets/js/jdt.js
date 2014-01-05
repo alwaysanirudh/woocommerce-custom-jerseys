@@ -285,6 +285,7 @@ function DesbloquearYmostrarPestanha(nuevaPestanha)
             mostrarPestanhaDesbloqueada(nuevaPestanha);
 
             var is_validate_tab = jQuery(document).data('is_validate_tab') || 0;
+            var is_validate_tab_jersey = jQuery(document).data('is_validate_tab_jersey') || 0;
 
             if (jQuery('#tab_text_font').hasClass('visible')) {
                 if (type_search == 'search_design' && is_validate_tab == 0) {
@@ -319,6 +320,13 @@ function DesbloquearYmostrarPestanha(nuevaPestanha)
 
                     });
 
+                }
+            }
+
+            if (jQuery('#tab_jerseys').hasClass('visible')) {
+                if (type_search == 'search_design' && is_validate_tab_jersey == 0) {
+                    jQuery(document).data('is_validate_tab_jersey', 1);
+                    validarConfirmJersey();
                 }
             }
 
@@ -731,6 +739,7 @@ function agregarNuevoJersey()
         jersey.name = $new_jersey_field[0].value;
         jersey.number = $new_jersey_field[1].value;
         jersey.size = $new_jersey_field[2].value;
+        jersey.quantity = 1;//$new_jersey_field[3].value;
 
         if (!jersey.name || !jersey.number || !jersey.size) {
             return;

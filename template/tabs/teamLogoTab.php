@@ -32,9 +32,9 @@ if ($is_search_design == true) {
         $data_logos = array();
 
         if ($is_search_design) {
-          $team_name_logo_value = json_decode($data_team_meta_text_fonts['_team_name_logo'], true);
-          $name = $team_name_logo_value['name'];
+          $team_name_logo_value = json_decode($data_team_meta_text_fonts['_team_name_logo'], true);          
           $type = $team_name_logo_value['type'];
+          $name = ( $type == 'name' ? $team_name_logo_value['filename'] : $team_name_logo_value['name']);
           $data_logos['position_id'] = $position->id;
 
           if ($type == 'name') {
