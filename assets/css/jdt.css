@@ -1,0 +1,2668 @@
+body {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.miBox {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.miContentClip {
+    -moz-background-clip: content;
+    /* Firefox 3.6 */
+
+    -webkit-background-clip: content;
+    /* Safari 4? Chrome 6? */
+
+    background-clip: content-box;
+    /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+}
+.miReset {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+div#wrapper_custom_jerseys {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+    *zoom: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    margin: 0px auto;
+    overflow-x: hidden;
+    width: 100%;
+    font-weight: 300;
+    min-width: 900px;
+    color: #393D40;
+}
+div#wrapper_custom_jerseys:before,
+div#wrapper_custom_jerseys:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys header,
+div#wrapper_custom_jerseys nav,
+div#wrapper_custom_jerseys section,
+div#wrapper_custom_jerseys article,
+div#wrapper_custom_jerseys aside,
+div#wrapper_custom_jerseys footer {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+}
+div#wrapper_custom_jerseys div,
+div#wrapper_custom_jerseys hgroup,
+div#wrapper_custom_jerseys h1,
+div#wrapper_custom_jerseys h2,
+div#wrapper_custom_jerseys h3 {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+}
+div#wrapper_custom_jerseys a,
+div#wrapper_custom_jerseys svg,
+div#wrapper_custom_jerseys p,
+div#wrapper_custom_jerseys ul,
+div#wrapper_custom_jerseys li {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+}
+div#wrapper_custom_jerseys img,
+div#wrapper_custom_jerseys figure,
+div#wrapper_custom_jerseys span,
+div#wrapper_custom_jerseys input {
+    position: relative;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-weight: normal;
+}
+div#wrapper_custom_jerseys a {
+    text-decoration: none;
+}
+div#wrapper_custom_jerseys nav,
+div#wrapper_custom_jerseys header,
+div#wrapper_custom_jerseys section {
+    width: 100%;
+    *zoom: 1;
+}
+
+div#wrapper_custom_jerseys select{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #F0F0F0;
+    color: #000;
+    font-size: 14px;
+    padding: 2px;  
+}
+
+div#wrapper_custom_jerseys nav:before,
+div#wrapper_custom_jerseys header:before,
+div#wrapper_custom_jerseys section:before,
+div#wrapper_custom_jerseys nav:after,
+div#wrapper_custom_jerseys header:after,
+div#wrapper_custom_jerseys section:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys nav:after,
+div#wrapper_custom_jerseys header:after,
+div#wrapper_custom_jerseys section:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys nav {
+    background: white;
+    *zoom: 1;
+    padding: 0px 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    z-index: 200;
+    box-shadow: 0px 2px 10px #E6E7E8;
+}
+div#wrapper_custom_jerseys nav:before,
+div#wrapper_custom_jerseys nav:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys nav:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys nav > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys nav > h1 {
+    width: 30%;
+    font-size: 34px;
+    color: #4d4d4d;
+    font-family: 'Oswald', sans-serif;
+}
+div#wrapper_custom_jerseys nav hgroup {
+    width: 70%;
+    *zoom: 1;
+}
+div#wrapper_custom_jerseys nav hgroup:before,
+div#wrapper_custom_jerseys nav hgroup:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys nav hgroup:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys nav hgroup a {
+    float: right;
+    margin-left: 20px;
+    padding: 20px 0px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+div#wrapper_custom_jerseys nav hgroup a h2 {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px #4d4d4d;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #4d4d4d;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+div#wrapper_custom_jerseys nav hgroup a h3 {
+    font-size: 14px;
+    color: #4d4d4d;
+}
+div#wrapper_custom_jerseys nav hgroup a:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+}
+div#wrapper_custom_jerseys nav hgroup a:hover h2 {
+    background: #d9d9d9;
+}
+div#wrapper_custom_jerseys nav hgroup a.activo {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div#wrapper_custom_jerseys nav hgroup a.activo h2 {
+    background: #BE1E2D;
+    color: #FFF;
+    border: none;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys nav hgroup a.activo:hover h2 {
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys > div {
+    width: 400%;
+    font-size: 0;
+    left: 0%;
+    -webkit-transition: all 0.4s 0s ease-out;
+    -moz-transition: all 0.4s 0s ease-out;
+    -ms-transition: all 0.4s 0s ease-out;
+    -o-transition: all 0.4s 0s ease-out;
+    transition: all 0.4s 0s ease-out;
+}
+div#wrapper_custom_jerseys > div > section {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    overflow-y: scroll;
+    padding-bottom: 15px;
+    background: #ede7e2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article {
+    width: 100%;
+    *zoom: 1;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:before,
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article header {
+    text-align: center;
+    padding: 40px 0px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type hgroup {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.0416666666666665%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type hgroup > * {
+    width: 100%;
+    text-align: center;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type a {
+    height: 200px;
+    border-radius: 8px;
+    background: white;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type a img {
+    height: 80%;
+    width: auto;
+    margin: 10% auto;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type a:hover {
+    -webkit-transform: scale(1.005);
+    -ms-transform: scale(1.005);
+    -moz-transform: scale(1.005);
+    -o-transform: scale(1.005);
+    transform: scale(1.005);
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:first-of-type h1 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type {
+    text-align: center;
+    font-size: 0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type input,
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type a {
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type input {
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+    color: #333333;
+    background-color: #F0F0F0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type a {
+    width: 150px;
+    background: #BE1E2D;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 24px;
+    color: white;
+    line-height: 65px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(1) article:last-of-type a:hover {
+    background: #000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) {
+    text-align: center;
+    font-size: 0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 270px;
+    padding: 0px 10px;
+    font-size: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure {
+    display: inline-block;
+    width: -webkit-calc(50% - 10px);
+    width: -moz-calc(50% - 10px);
+    width: calc(50% - 10px);
+    height: 100%;
+    background: #FAFAFB;
+    padding-top: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure:first-of-type {
+    border-radius: 8px 0px 0px 8px;
+    border-right: none;
+    margin-right: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure:last-of-type {
+    border-radius: 0px 8px 8px 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure h1 {
+    font-size: 24px;
+    color: #a6a6a6;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure svg {
+    margin: 0px auto;
+    width: 90%;
+    height: 200px;
+}
+
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > header figure img {
+    margin: 0px auto;
+    width: auto;
+    height: 200px;
+}
+
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > div {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    height: 200px;
+    background: #e6e5e5;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    border: solid 1px #cccccc;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: none;
+    background: white;
+    border-radius: 0px 0px 8px 8px;
+    overflow: hidden;
+    padding: 0px 60px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article header {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article > a {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 60px;
+    background: #f0f0f0;
+    color: #a6a6a6;
+    font-size: 16px;
+    line-height: 200px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition: all 0.2s 0s ease-out;
+    -moz-transition: all 0.2s 0s ease-out;
+    -ms-transition: all 0.2s 0s ease-out;
+    -o-transition: all 0.2s 0s ease-out;
+    transition: all 0.2s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article > a:first-of-type {
+    left: 0px;
+    border-radius: 0px 0px 0px 8px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article > a:last-of-type {
+    left: auto;
+    right: 0px;
+    border-radius: 0px 0px 8px 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article > a.activo {
+    background: #BE1E2D;
+    color: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article input {
+    background: #f0f0f0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article.visible {
+    z-index: 100;
+    opacity: 1;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup {
+    overflow: hidden;
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16.666666666666668%;
+    background: #C7C8C9;
+    padding: 10px 0px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: visible;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a h1 {
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 15;
+    color: white;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+    border: solid 1px white;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 5px;
+    line-height: 15px;
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: auto;
+    right: -20px;
+    width: 50px;
+    z-index: 10;
+    -webkit-transform: rotate(60deg) skew(28deg);
+    -ms-transform: rotate(60deg) skew(28deg);
+    -moz-transform: rotate(60deg) skew(28deg);
+    -o-transform: rotate(60deg) skew(28deg);
+    transform: rotate(60deg) skew(28deg);
+    background: #C7C8C9;
+    border: solid 1px white;
+    border-left: none;
+    border-bottom: none;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a:first-of-type {
+    border-radius: 8px 0px 0px 0px;
+    border-left: solid 1px #cccccc;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a:last-of-type {
+    border-radius: 0px 8px 0px 0px;
+    border-right: solid 1px #cccccc;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) > hgroup > a:last-of-type:after {
+    display: none;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.activo {
+    background: #545353;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.activo:after {
+    background: #545353;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.activo:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.activo:hover:after {
+    background: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.confirmado {
+    background: #545353;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.confirmado:after {
+    background: #545353;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.confirmado:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.confirmado:hover:after {
+    background: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.confirmado span {
+    -webkit-animation: confirmarPestanha 0.8s 0s 1 normal forwards;
+    -moz-animation: confirmarPestanha 0.8s 0s 1 normal forwards;
+    -ms-animation: confirmarPestanha 0.8s 0s 1 normal forwards;
+    -o-animation: confirmarPestanha 0.8s 0s 1 normal forwards;
+    animation: confirmarPestanha 0.8s 0s 1 normal forwards;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible {
+    background: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible h1 {
+    color: #BE1E2D;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible span {
+    border-color: #cccccc;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible:after {
+    background: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible:hover {
+    background: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) a.visible:hover:after {
+    background: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) {
+    text-align: center;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    padding: 0px 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) hgroup > a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    width: 95px;
+    border: solid 1px rgba(166, 166, 166, 0);
+    border-radius: 8px;
+    -webkit-transition: all 0.2s 0s ease-out;
+    -moz-transition: all 0.2s 0s ease-out;
+    -ms-transition: all 0.2s 0s ease-out;
+    -o-transition: all 0.2s 0s ease-out;
+    transition: all 0.2s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) hgroup > a div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 1px #000;
+    background: grey;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) hgroup > a div:last-of-type {
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 10px;
+    background: #e5e600;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) hgroup > a:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) hgroup > a:hover {
+    border-color: #bfbfbf;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) a.seleccionado {
+    border-color: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(1) a.seleccionado:hover {
+    border-color: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.0416666666666665%;
+    height: 100%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div header {
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type > * {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type h1,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type h2 {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type input {
+    padding-top: 3px;
+    padding-left: 5px;
+    -webkit-transition: all 0.5s 0s ease-out;
+    -moz-transition: all 0.5s 0s ease-out;
+    -ms-transition: all 0.5s 0s ease-out;
+    -o-transition: all 0.5s 0s ease-out;
+    transition: all 0.5s 0s ease-out;
+    font-size: 14px;
+    height: 31px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type input:first-of-type {
+    width: 100%;
+    border-radius: 4px;
+    height: 31px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type input:last-of-type {
+    width: 70%;
+    float: left;
+    border-radius: 4px 0px 0px 4px;
+    height: 31px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type > a {
+    float: left;
+    width: 30%;
+    background: #BE1E2D;
+    font-size: 14px;
+    height: 31px;
+    padding: 3px 0px;
+    border-radius: 0px 4px 4px 0px;
+    line-height: 26px;
+    color: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type > a:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type > a.eliminar {
+    background: #CC2714;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:first-of-type > a.eliminar:hover {
+    background: #e32b16;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) span,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) a {
+    font-size: 14px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) a {
+    margin-bottom: 10px !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) > hgroup {
+    float: left;
+    width: 50%;
+    *zoom: 1;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) > hgroup:before,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) > hgroup:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) > hgroup:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) > hgroup > * {
+    width: 90%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) textarea {
+    float: right;
+    width: 50%;
+    height: 115px;
+    font-size: 12px;
+    border: solid 1px #E6E7E8;
+    border-radius: 4px;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:nth-of-type(2) select {
+    width: 90%;
+    margin: 0px;
+    display: block;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:last-of-type span,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:last-of-type a {
+    font-size: 14px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:last-of-type a {
+    margin-bottom: 10px;
+    width: 90%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:last-of-type header {
+    padding-left: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(2) > div:last-of-type select {
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+    margin: 0px;
+    display: block;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys .logos {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys .logos > header {
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys .logos hgroup {
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding: 0px 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+}
+div#wrapper_custom_jerseys .logos hgroup div {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: dashed 2px #BE1E2D;
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type:hover p {
+    color: white;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type h1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys .logos hgroup a:first-of-type p {
+    font-size: 14px;
+    text-align: center;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: calc(100% - 10px);
+    white-space: normal;
+    padding: 0px 5px;
+    color: #BE1E2D;
+}
+div#wrapper_custom_jerseys .logos hgroup a:nth-of-type(2) {
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 1px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    transform-style: preserve-3d;
+    opacity: 0;
+    z-index: -10;
+}
+div#wrapper_custom_jerseys .logos hgroup a:nth-of-type(2):hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.4);
+    color: #000000;
+}
+div#wrapper_custom_jerseys .logos hgroup div.seleccionado {
+    border-style: solid;
+    border-color: #000000;
+}
+div#wrapper_custom_jerseys .logos hgroup div.seleccionado a:first-of-type {
+    background: #000000;
+}
+div#wrapper_custom_jerseys .logos hgroup div.seleccionado a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2;
+}
+div#wrapper_custom_jerseys .logos hgroup div.seleccionado h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys .logos hgroup div.seleccionado p {
+    color: white;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys .logos hgroup div.disabled {
+    border-style: solid;
+    border-color: #f5f5f5;
+}
+div#wrapper_custom_jerseys .logos hgroup div.disabled a:first-of-type {
+    background: #f5f5f5;
+}
+div#wrapper_custom_jerseys .logos hgroup div.disabled a:first-of-type:hover {
+    color: #000;
+}
+div#wrapper_custom_jerseys .logos hgroup div.disabled h1 {
+    font-weight: 400;
+    color: #000;
+}
+div#wrapper_custom_jerseys .logos hgroup div.disabled p {
+    color: #000;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3),
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4),
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) > header,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) > header,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) > header   {
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup {
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding: 0px 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: dashed 2px #00ABB2;
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type:hover {
+    background: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type:hover p {
+    color: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type h1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type p {
+    font-size: 14px;
+    text-align: center;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: calc(100% - 10px);
+    white-space: normal;
+    padding: 10px 20px;
+    color: #00ABB2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:nth-of-type(2) {
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 1px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    transform-style: preserve-3d;
+    opacity: 0;
+    z-index: -10;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:nth-of-type(2):hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.4);
+    color: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado {
+    border-style: solid;
+    border-color: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado a:first-of-type {
+    background: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado p {
+    color: white;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled {
+    border-style: solid;
+    border-color: #f5f5f5;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled a:first-of-type {
+    background: #f5f5f5;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled a:first-of-type:hover {
+    color: #dbdbdb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled p {
+    color: #dbdbdb;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) > header {
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup {
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding: 0px 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div {
+
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: dashed 2px #BE1E2D;
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type {  
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type:hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type:hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type:hover {  
+    background: #BE1E2D;
+    color: white !important;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type:hover p,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type:hover p,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type:hover p {
+    color: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type h1,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type h1, 
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type h1  {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BE1E2D;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:first-of-type p,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:first-of-type p,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type p{  
+    font-size: 14px;
+    text-align: center;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: calc(100% - 10px);
+    white-space: normal;
+    padding: 0px 5px;
+    color: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:nth-of-type(2) {
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 1px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    transform-style: preserve-3d;
+    opacity: 0;
+    z-index: -10;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:nth-of-type(2):hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.4);
+    color: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.seleccionado,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.seleccionado,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado {
+    border-style: solid;
+    border-color: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.seleccionado a:first-of-type {
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.seleccionado a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.seleccionado h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.seleccionado p {
+    color: white;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.disabled {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7c7c7c;
+    border-style: dashed;
+    color: #000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled a:first-of-type,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.disabled a:first-of-type,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled a:first-of-type {
+    background: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled a:first-of-type:hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.disabled a:first-of-type:hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled a:first-of-type:hover   {
+    font-weight: 400;
+    color: #7c7c7c !important;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled h1,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.disabled h1,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled h1
+{
+    font-weight: 400;
+    color: #7c7c7c !important;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup div.disabled p, 
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup div.disabled p,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled p
+{
+    font-weight: 400;
+    color: #dbdbdb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) > header {
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup {
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding: 0px 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    text-align: left;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 2px dashed #BE1E2D
+        height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type:hover {
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type:hover p {
+    color: white;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type h1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BE1E2D !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:first-of-type p {
+    font-size: 14px;
+    text-align: center;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: calc(100% - 10px);
+    white-space: normal;
+    padding: 0px 5px;
+    color: #00ABB2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:nth-of-type(2), 
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:nth-of-type(2),
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:nth-of-type(2)  {
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #d8d8d8;
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 0px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+    transform-style: preserve-3d;
+    opacity: 0;
+    z-index: -10;
+    color: #d8d8d8 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+/* The Hover for X on the Front, Back and Sleeve logo Upload */
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(3) hgroup a:nth-of-type(2):hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(4) hgroup a:nth-of-type(2):hover,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup a:nth-of-type(2):hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.4);
+    color: #BE1E2D !important;
+    border: solid 1px #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado {
+    border-style: solid;
+    border-color: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado a:first-of-type {
+    background: #00c3cb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.seleccionado p {
+    color: white;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled {
+    border-style: solid;
+    border-color: #f5f5f5;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled a:first-of-type {
+    background: #f5f5f5;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled a:first-of-type:hover {
+    color: #dbdbdb;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled h1 {
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(5) hgroup div.disabled p {
+    color: #dbdbdb;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div {
+    margin: 0px 10px;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: 155px;
+    font-size: 0;
+    text-align: left;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-top: 10px 20px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup.chiquito {
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    transform: scale(0.2);
+    opacity: 0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    width: 170px;
+    height: 100%;
+    border-left: none;
+    white-space: normal;
+    -webkit-transition: all 0.4s 0s ease-out;
+    -moz-transition: all 0.4s 0s ease-out;
+    -ms-transition: all 0.4s 0s ease-out;
+    -o-transition: all 0.4s 0s ease-out;
+    transition: all 0.4s 0s ease-out;
+    opacity: 1;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0px;
+    z-index: 2;
+    background: white;
+    -webkit-transition: all 0.2s 0s ease-out;
+    -moz-transition: all 0.2s 0s ease-out;
+    -ms-transition: all 0.2s 0s ease-out;
+    -o-transition: all 0.2s 0s ease-out;
+    transition: all 0.2s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup > div:last-of-type {
+    opacity: 0;
+    z-index: 0;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup > div.visible {
+    opacity: 1;
+    z-index: 3;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type {
+    text-align: center;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type h1,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type h2,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type span {
+    line-height: 100%;
+    padding: 3px 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type h1 {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type h2,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type span {
+    font-size: 14px;
+    width: 50%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type h2 {
+    float: left;
+    text-align: left;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type span {
+    float: right;
+    text-align: right;
+    color: #a6a6a6;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a {
+    margin-top: 20px;
+    *zoom: 1;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:before,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a svg {
+    margin: 0px auto;
+    height: 100%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a path,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a rect {
+    fill: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:first-of-type {
+    margin-right: 20px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:hover path,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:first-of-type a:hover rect {
+    fill: #000000;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type {
+    text-align: center;
+    padding-top: 10px;
+    padding-top: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type > * {
+    font-size: 14px;
+    width: 100%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type input {
+    margin-bottom: 5px;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type a,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type span {
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type a:nth-last-of-type(-n+2) {
+    margin-top: 5px;
+    float: right;
+    height: 20px;
+    width: auto;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: white;
+    background: #a6a6a6;
+    border-radius: 4px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:nth-of-type(n+2) div:last-of-type a:nth-last-of-type(2) {
+    float: left;
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type {
+    border: dashed 2px #BE1E2D;
+    border-radius: 8px;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s 0s ease-out;
+    -moz-transition: all 0.4s 0s ease-out;
+    -ms-transition: all 0.4s 0s ease-out;
+    -o-transition: all 0.4s 0s ease-out;
+    transition: all 0.4s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type {
+    text-align: center;
+    font-size: 0;
+    padding: 0px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a {
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 1px;
+    content: "";
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a svg {
+    width: 100%;
+    height: 100%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a path,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a rect {
+    fill: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a:hover {
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a:hover path,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:first-of-type a:hover rect {
+    fill: #ffffff;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type {
+    text-align: center;
+    padding-top: 10px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type > * {
+    font-size: 14px;
+    width: 100%;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type input {
+    margin-bottom: 5px;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type a,
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type span {
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type a:nth-last-of-type(-n+2) {
+    margin-top: 5px;
+    float: right;
+    height: 20px;
+    width: auto;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: white;
+    background: #a6a6a6;
+    border-radius: 4px;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup:first-of-type > div:last-of-type a:nth-last-of-type(2) {
+    float: left;
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys div > section:nth-of-type(2) article:nth-of-type(6) > div hgroup.flipped {
+    -webkit-transform: rotateY(180 deg);
+    -ms-transform: rotateY(180 deg);
+    -moz-transform: rotateY(180 deg);
+    -o-transform: rotateY(180 deg);
+    transform: rotateY(180 deg);
+}
+div#wrapper_custom_jerseys .editJersey {
+    text-align: center;
+    padding-top: 10px;
+}
+div#wrapper_custom_jerseys .editJersey > * {
+    font-size: 14px;
+    width: 100%;
+}
+div#wrapper_custom_jerseys .editJersey input {
+    margin-bottom: 5px;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys .editJersey a,
+div#wrapper_custom_jerseys .editJersey span {
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys .editJersey a:nth-last-of-type(-n+2) {
+    margin-top: 5px;
+    float: right;
+    height: 20px;
+    width: auto;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: white;
+    background: #a6a6a6;
+    border-radius: 4px;
+}
+div#wrapper_custom_jerseys .editJersey a:nth-last-of-type(2) {
+    float: left;
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys .keyframeConfirmarPestanha 0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+div#wrapper_custom_jerseys .keyframeConfirmarPestanha 60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+div#wrapper_custom_jerseys .keyframeConfirmarPestanha 70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+div#wrapper_custom_jerseys .keyframeConfirmarPestanha 100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+@-webkit-keyframes confirmarPestanha {
+    0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+}
+@-ms-keyframes confirmarPestanha {
+    0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+}
+@-o-keyframes confirmarPestanha {
+    0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+}
+@-moz-keyframes confirmarPestanha {
+    0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+}
+@keyframes confirmarPestanha {
+    0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+60% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+70% {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    background: #28CC76;
+    font-size: 12px;
+    color: white;
+}
+}
+div#wrapper_custom_jerseys .popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    text-align: center;
+    z-index: -50;
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys .popup:before {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys .popup > hgroup {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 8px;
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys .popup > hgroup a {
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys .popup > hgroup header {
+    height: 30px;
+}
+div#wrapper_custom_jerseys .popup > hgroup header h1 {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys .popup > hgroup header a {
+    position: absolute;
+    left: auto;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px #808080;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys .popup > hgroup header a:hover {
+    background: #808080;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    text-align: center;
+    z-index: -50;
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup1:before {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 8px;
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup a {
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup header {
+    height: 30px;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup header h1 {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup header a {
+    position: absolute;
+    left: auto;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px #d8d8d8;
+    font-size: 16px;
+    line-height: 16px;
+    color: #d8d8d8 !important;;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+}
+div#wrapper_custom_jerseys section#logoPopup1 > hgroup header a:hover {
+    background: #808080;
+    color: #BE1E2D !important;
+    border: solid 1px #BE1E2D;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article {
+    width: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article > * {
+    width: 100%;
+    text-align: center;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article a {
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article a:first-of-type {
+    border: solid 1px #BE1E2D;
+    color: #BE1E2D;
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article a:first-of-type:hover {
+    background: #000;
+    border: solid 1px #000;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article a:last-of-type {
+    background: #BE1E2D;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup1 article a:last-of-type:hover {
+    background: #BE1E2D;
+}
+div#wrapper_custom_jerseys section#logoPopup1.popUpVisible {
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.4);
+}
+div#wrapper_custom_jerseys section#logoPopup1.popUpVisible hgroup {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+div#wrapper_custom_jerseys section#logoPopup2 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    text-align: center;
+    z-index: -50;
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup2:before {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 8px;
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup a {
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup header {
+    height: 30px;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup header h1 {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup header a {
+    position: absolute;
+    left: auto;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px #808080;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys section#logoPopup2 > hgroup header a:hover {
+    background: #808080;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup {
+    width: 400px;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:first-of-type {
+    width: 100%;
+    font-size: 0;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #e6e6e6;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:first-of-type a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-right: 20px;
+    color: #333333;
+    text-decoration: underline;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:first-of-type a:last-of-type {
+    margin-right: 0px;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:first-of-type a:hover {
+    color: #808080;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:first-of-type a.activo {
+    color: #BE1E2D;
+    text-decoration: none;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) {
+    width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 20px;
+    *zoom: 1;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2):before,
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2):after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2):after {
+    clear: both;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) a {
+    display: inline;
+    float: left;
+    width: 22.916666666666664%;
+    margin: 0 1.0416666666666665%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid 1px white;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) a:hover {
+    border: solid 1px #BE1E2D;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) a figure {
+    border-radius: 50%;
+    background: black;
+    height: 40px;
+    width: 40px;
+    margin: 0px auto;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) a h1 {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+div#wrapper_custom_jerseys section#logoPopup2 article:nth-of-type(2) a.seleccionado {
+    border: solid 1px #BE1E2D;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a {
+    *zoom: 1;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #e6e6e6;
+    color: white;
+    -webkit-transition: all 0.2s 0s ease-out;
+    -moz-transition: all 0.2s 0s ease-out;
+    -ms-transition: all 0.2s 0s ease-out;
+    -o-transition: all 0.2s 0s ease-out;
+    transition: all 0.2s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a:before,
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a:after {
+    content: "";
+    display: table;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a:after {
+    clear: both;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a.activo {
+    background: #BE1E2D;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup2 hgroup > a.activo:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys section#logoPopup2.popUpVisible {
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.4);
+}
+div#wrapper_custom_jerseys section#logoPopup2.popUpVisible hgroup {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+div#wrapper_custom_jerseys section#logoPopup3 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    text-align: center;
+    z-index: -50;
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup3:before {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+    vertical-align: middle;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 8px;
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.3s 0s ease-out;
+    -moz-transition: all 0.3s 0s ease-out;
+    -ms-transition: all 0.3s 0s ease-out;
+    -o-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup a {
+    -webkit-transition: all 0.1s 0s ease-out;
+    -moz-transition: all 0.1s 0s ease-out;
+    -ms-transition: all 0.1s 0s ease-out;
+    -o-transition: all 0.1s 0s ease-out;
+    transition: all 0.1s 0s ease-out;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup header {
+    height: 30px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup header h1 {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup header a {
+    position: absolute;
+    left: auto;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px #808080;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+div#wrapper_custom_jerseys section#logoPopup3 > hgroup header a:hover {
+    background: #808080;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup3 hgroup {
+    width: 660px;
+    height: 550px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 hgroup > header {
+    border-bottom: solid 1px #e6e6e6;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup3 hgroup > article {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup3 hgroup > article header {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5px;
+    color: #BE1E2D;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type > header {
+    margin-bottom: 10px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type p,
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type figure {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type figure {
+    background: black;
+    height: 100px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type a {
+    font-size: 18px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #BE1E2D;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type a:first-of-type {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    color: #BE1E2D;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:last-of-type a:first-of-type:hover {
+    background: #f5f5f5;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type {
+    font-size: 0;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section {
+    width: 100%;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type {
+    margin-bottom: 20px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup {
+    width: 100%;
+    height: 40px;
+    margin: 0px auto;
+    text-align: left;
+    border-radius: 8px;
+    overflow: hidden;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup > * {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup input {
+    background: #e6e6e6;
+    width: 60%;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup span {
+    width: 40%;
+    color: white;
+    background: #808080;
+    text-align: center;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup:last-of-type {
+    margin-bottom: 20px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup:last-of-type h3 {
+    font-size: 12px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type hgroup:last-of-type input {
+    width: auto;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type button.btn_upload {
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    background: #BE1E2D;
+    font-size: 18px;
+    border-radius: 8px;
+    border:0px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:first-of-type > a:hover {
+    background: #000000;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:nth-of-type(2) header {
+    text-align: center;
+    color: #4d4d4d;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    border: solid 1px #cccccc;
+    border-radius: 4px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup header {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33333%;
+    text-align: center;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup header:nth-of-type(-n+2) {
+    border-right: solid 1px #e6e6e6;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup ul {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a {
+    width: 100%;
+    background: white;
+    text-align: center;
+    font-size: 0;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.3333%;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a:nth-of-type(even) {
+    background: #f5f5f5;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a.seleccionado {
+    background: #FF7319;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a.seleccionado span {
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type hgroup a.seleccionado:nth-of-type(even) {
+    background: #FF7319;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type > a {
+    display: inline;
+    float: left;
+    width: 47.91666666666667%;
+    margin: 0 1.0416666666666665%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: solid 1px #cccccc;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #cccccc;
+    padding: 5px;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type > a:first-of-type.activo {
+    background: #CC2714;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type > a:first-of-type.activo:hover {
+    background: #e32b16;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type > a:last-of-type.activo {
+    background: #00ABB2;
+    color: white;
+}
+div#wrapper_custom_jerseys section#logoPopup3 article:first-of-type section:last-of-type > a:last-of-type.activo:hover {
+    background: #00c3cb;
+}
+div#wrapper_custom_jerseys section#logoPopup3.popUpVisible {
+    z-index: 500;
+    background: rgba(0, 0, 0, 0.4);
+}
+div#wrapper_custom_jerseys section#logoPopup3.popUpVisible hgroup {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+div#wrapper_custom_jerseys .text-danger {
+    color: #B94A48;
+    font-size: 14px;
+}
+div#wrapper_custom_jerseys div.loadingDiv {
+    position: absolute;
+    display: block;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+div#wrapper_custom_jerseys div.loadingDiv:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 1px;
+}
+div#wrapper_custom_jerseys div.loadingDiv:after {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url("../images/loadingGif.gif") no-repeat center center;
+    background-size: contain;
+}

@@ -1,0 +1,410 @@
+@import "global.less";
+
+
+nav
+{
+	background: black;
+	.clearfix;	
+	padding: 0px 20px;
+	.miBox;
+	font-size: 0;
+	
+	> *
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	> h1
+	{
+		width: 30%;
+		font-size: 24px;
+		color: white;
+	}
+	
+	hgroup
+	{
+		width: 70%;
+		.clearfix;
+		
+		a{
+			float: right;
+			
+			margin-left: 20px;
+			padding: 20px 0px;
+			
+			.miTransicion(all;0.1s;0s;ease-out);
+			
+			h2
+			{
+				margin: 0px auto;
+				margin-bottom: 10px;
+				
+				width: 40px;
+				height: 40px;
+				
+				border-radius: 50%;
+				background: white;
+				
+				font-size: 20px;
+				text-align: center;
+				line-height: 40px;
+				color: black;
+			}
+			
+			h3
+			{
+				font-size: 14px;
+				color: white;
+			}
+			
+			.miTransform(scale(0.9));
+			
+			&:hover
+			{
+				.miTransform(scale(0.95));
+				
+				h2
+				{
+					background: hsl(0%,0%,85%);
+				}
+			}
+		}
+		
+		
+		a.activo
+		{
+			h2
+			{
+				background: red;
+				color: white;
+			}
+			
+			.miTransform(scale(1.1));
+			
+			&:hover
+			{
+				h2
+				{
+					background: red;
+				}
+			}
+		}
+	}
+}
+
+
+
+body > div
+{
+	width: 400%;
+	font-size: 0;
+	left: 0%;
+	overflow: hidden;
+	
+	.miTransicion(all;0.4s;0s;ease-out);
+}
+
+
+section
+{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	
+	height: 600px;
+	background: hsl(0%,0%,90%);
+	
+	overflow: auto;
+	
+	&:nth-of-type(even)
+	{
+		background: hsl(0%,0%,96%);
+	}
+	
+}
+
+
+
+
+section:nth-of-type(1)
+{
+	article
+	{
+		width: 100%;
+		.clearfix;
+		
+		header
+		{
+			text-align: center;
+			padding: 40px 0px;
+			
+			font-size: 30px;
+		}
+		
+		
+		&:first-of-type
+		{
+			a{
+				.column(4);
+				height: 200px;
+				
+				background: yellow;
+				.miTransicion(all;0.1s;0s;ease-out);
+				
+				&:hover
+				{
+					background: darken(yellow,5%);
+				}
+			}
+		}
+		
+		
+		
+		&:last-of-type
+		{
+			text-align: center;
+			font-size: 0;
+			
+			input, a
+			{
+				height: 60px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			
+			
+			input
+			{
+				width: 50%;
+				font-size: 20px;
+				
+				padding: 10px;
+				.miBox;
+			}
+			
+			
+			a
+			{
+				width: 150px;
+				background: green;
+				
+				font-size: 20px;
+				color: white;
+				line-height: 60px;
+				
+				.miTransicion(all;0.1s;0s;ease-out);
+				
+				&:hover
+				{
+					background: darken(green,5%);
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+section:nth-of-type(2)
+{
+	text-align: center;
+	font-size: 0;
+	
+	> header
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 270px;
+		
+		figure
+		{
+			.column(6);
+			height: 100%;
+			background: yellow;
+		}
+	}
+	
+	> div
+	{
+		.column(12);
+		height: 180px;
+		background: hsl(120%,2%,90%);
+		overflow: hidden;
+	}
+	
+	
+	article
+	{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		opacity: 0;
+		
+		header
+		{
+			font-size: 20px;
+			text-align: left;
+			padding: 10px;
+			.miBox;
+		}
+		
+	}
+	
+	article.visible
+	{
+		z-index: 100;
+		opacity: 1;
+	}
+	
+	
+	> hgroup > a
+	{
+		display: inline-block;
+		vertical-align: top;
+		
+		.miAnchoCalculo("(100% - 20px )/6");
+		background: blue;
+		color: white;
+		font-size: 14px;
+		
+		padding: 10px 0px;
+		text-align: center;
+		
+		border-radius: 0px 0px 8px 8px;
+		
+		border: solid 1px white;
+		border-top: none;
+		.miBox;
+		
+		&:hover
+		{
+			background: darken(blue,10%);
+		}
+	}
+	
+	a.visible
+	{
+		background: red;
+		
+		&:hover
+		{
+			background: red;
+		}
+	}
+}
+
+
+
+
+
+section:nth-of-type(2) article:nth-of-type(1)
+{
+	text-align: center;
+	.miTransicion(all;0.1s;0s;ease-out);
+	
+	> a{
+		
+		display: inline-block;
+		margin-right: 60px;
+		margin-top: 30px;
+		
+		div
+		{
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+						
+			border: solid 1px gray;
+			background: purple;
+			
+			&:last-of-type
+			{
+				position: absolute;
+				top: 0px;
+				left: 30px;
+				
+				background: lime;
+			}
+		}
+		
+		
+		&:last-of-type
+		{
+			margin-right: 30px;
+		}
+		
+	}
+}
+
+
+
+
+
+
+section:nth-of-type(2) article:nth-of-type(3)
+{
+	text-align: left;
+	padding: 0px 20px;
+	.miBox;
+	
+	> header
+	{
+		padding-left: 0px;
+		margin-bottom: 20px;
+	}
+	
+	hgroup
+	{
+		display: inline-block;
+		.miAnchoCalculo("(100% - 20px*2)/3");
+		margin-right: 20px;
+		margin-bottom: 10px;
+		font-size: 0;
+		
+		height: 24px;
+				
+		&:nth-of-type(3n)
+		{
+			margin-right: 0px;
+		}
+		
+		> *
+		{
+			display: inline-block;
+			height: 100%;
+			line-height: 24px;
+		}
+		
+		h1
+		{
+			font-size: 14px;
+			text-align: left;
+			width: 25px;
+		}
+		
+		input
+		{
+			.miAnchoCalculo("100% - 25px - 80px");
+			padding: 0px 5px;
+			.miBox;
+		}
+		
+		a
+		{
+			display: block;
+			float: right;
+			background: green;
+			width: 80px;
+			
+			font-size: 12px;
+			color: white;
+			text-align: center;
+		}
+	}
+	
+}

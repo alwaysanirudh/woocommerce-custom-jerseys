@@ -1,0 +1,134 @@
+@import "grid.less";
+
+@anchoMinimo : 978px;
+
+@gutter-width: 20px;
+@total-width: 100%;
+
+.miBox
+{
+-moz-box-sizing: border-box; 
+			-webkit-box-sizing: border-box; 
+			box-sizing: border-box;
+}
+
+.miTransicion(@atributo;@tiempo;@delay;@curva)
+{
+	-webkit-transition: @atributo @tiempo @delay @curva;
+	-moz-transition: @atributo @tiempo @delay @curva;
+	-ms-transition: @atributo @tiempo @delay @curva;
+	-o-transition: @atributo @tiempo @delay @curva;
+	transition: @atributo @tiempo @delay @curva;
+	
+}
+
+.miTransform(@atributo)
+{
+	-webkit-transform: @atributo;
+	-ms-transform: @atributo;
+	-moz-transform: @atributo;
+	-o-transform: @atributo;
+	transform: @atributo;
+}
+
+.misColumnas(@numColumnas;@gap)
+{
+	-webkit-column-count: @numColumnas;
+	-moz-column-count: @numColumnas;
+	column-count: @numColumnas;
+	
+	-webkit-column-gap: @gap;
+	-moz-column-gap: @gap;
+	column-gap: @gap;
+	
+}
+
+.miContentClip
+{
+	-moz-background-clip: content;     /* Firefox 3.6 */
+  -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+  background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+}
+
+.miAnchoCalculo(@calculo)
+{
+	width: ~"-webkit-calc(@{calculo})";
+	width: ~"-moz-calc(@{calculo})";
+	width: ~"calc(@{calculo})";
+}
+
+.miHorizontalPadding(@calculo)
+{
+	padding-left: ~"-webkit-calc(@{calculo})";
+	padding-left: ~"-moz-calc(@{calculo})";
+	padding-left: ~"-calc(@{calculo})";
+	
+	padding-right: ~"-webkit-calc(@{calculo})";
+	padding-right: ~"-moz-calc(@{calculo})";
+	padding-right: ~"-calc(@{calculo})";
+}
+
+.miRadius(@r1;@r2;@r3;@r4)
+{
+	-webkit-border-radius: @r1 @r2 @r3 @r4;
+       -moz-border-radius: @r1 @r2 @r3 @r4;
+            border-radius: @r1 @r2 @r3 @r4;
+}
+
+.miReset
+{
+	position: relative;
+	display: block;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	border:none;
+	font-weight: normal;
+}
+
+html
+{
+	overflow: hidden;
+}
+
+
+body
+{
+	.miReset;
+	.clearfix;
+	
+	margin: 0px auto;
+	
+	width: 100%;
+	
+	overflow: hidden;
+	
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+	font-family: sans-serif;
+	font-weight: normal;
+	min-width: @anchoMinimo;
+	
+	color: #393D40;
+
+}
+
+header,nav,section,article,aside,footer {.miReset}
+	
+div,hgroup,h1,h2,h3{.miReset}
+	
+a,svg,p,ul,li{.miReset}
+	
+img,figure,span,input {.miReset}
+	
+a {text-decoration: none;}
+
+
+
+nav, header, section
+{
+	width: 100%;
+	.clearfix;
+}
+
