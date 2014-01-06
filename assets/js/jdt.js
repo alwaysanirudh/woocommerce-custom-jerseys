@@ -25,7 +25,7 @@ var popup3;
 var popupActivo;
 
 var template_jerseys;
-var data_form = {};
+var data_form;
 var iFrames;
 
 //popup2
@@ -72,8 +72,12 @@ function init()
 
         jQuery(document).data('jerseys', []);
         jQuery(document).data('logos_uploaded', []);
+        jQuery(document).data('is_validate_tab_jersey', 0);
+        jQuery(document).data('is_validate_tab', 0);
 
         nombreSeleccionado = "";
+        
+        data_form = {};
     }
 }
 
